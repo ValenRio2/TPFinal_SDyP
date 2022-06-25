@@ -9,16 +9,14 @@
 #define cant_semanas 24
 #define n 20
 
-enum Estado {
-    BLANCO=0, //Árbol podado.
-    AZUL=1, // Árbol enfermo con tratamiento antifúngico
-    ROJO=2, //Árbol enfermo con síntomas visibles
-    NARANJA=3, //Árbol enfectado con esporas (enfermo sin sintomas visibles)
-    VERDE=4, //Árbol sano
-};
+#define BLANCO=0, //Árbol podado.
+#define AZUL=1, // Árbol enfermo con tratamiento antifúngico
+#define ROJO=2, //Árbol enfermo con síntomas visibles
+#define NARANJA=3, //Árbol enfectado con esporas (enfermo sin sintomas visibles)
+#define VERDE=4, //Árbol sano
 
 typedef struct {
-    enum Estado estado;
+    int estado;
     int edad; //joven - adulto - viejo
     int herida_abierta; // joven (23%) - adulto (8%) - viejos (37%)
     int tpo_contagio;
