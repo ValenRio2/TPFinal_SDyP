@@ -1,0 +1,3 @@
+C:/Users/Valentina/Desktop/Cyc/MPI/cmake-build-debug/CMakeFiles/MPI.dir
+C:/Users/Valentina/Desktop/Cyc/MPI/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Valentina/Desktop/Cyc/MPI/cmake-build-debug/CMakeFiles/rebuild_cache.dir

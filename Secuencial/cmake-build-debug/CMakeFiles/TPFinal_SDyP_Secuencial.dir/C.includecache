@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Valentina/Desktop/Cyc/TPFinal-SDyP-Secuencial/main.c
+stdio.h
+-
+rpcndr.h
+-
+

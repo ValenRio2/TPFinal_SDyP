@@ -1,0 +1,3 @@
+C:/Users/Valentina/Desktop/Cyc/OpenMP/cmake-build-debug/CMakeFiles/OpenMP.dir
+C:/Users/Valentina/Desktop/Cyc/OpenMP/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Valentina/Desktop/Cyc/OpenMP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
