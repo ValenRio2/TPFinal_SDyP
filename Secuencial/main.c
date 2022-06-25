@@ -48,16 +48,16 @@ int main() {
         srand(((rand()+randomaux)*13)*7);
         start=clock();
         InicializarMatriz(estadoActual);
-        VisualizarMatriz(estadoActual);
-        printf("\n");
+        //VisualizarMatriz(estadoActual);
+        //printf("\n");
         for(int i = 0;i<cant_semanas;i++){
             srand(((rand()+randomaux)*13)*7);
             Proceso_Matriz(estadoActual,estadoSiguiente);
             Aux=estadoSiguiente;
             estadoActual=Aux;
             estadoSiguiente=estadoActual;
-            VisualizarMatriz(estadoActual);
-            printf("\n");
+            //VisualizarMatriz(estadoActual);
+            //printf("\n");
 
         }
         finish=clock();
